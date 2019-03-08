@@ -1,0 +1,661 @@
+[HTTP] Binding to address: :1080
+Creating API v1 with WebPath: 
+Creating API v2 with WebPath: 
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+Got message in APIv2 websocket channel
+[APIv2] BROADCAST /api/v2/websocket
+Got message in APIv1 event stream
+Sending content: {
+  "ID": "FqVmNVCkR7yYhuEGRlYaSG5pwgLl-n2LDJmO24PAbNo=@mailhog.example",
+  "From": {
+    "Relays": null,
+    "Mailbox": "www-data",
+    "Domain": "41be40d5681c",
+    "Params": ""
+  },
+  "To": [
+    {
+      "Relays": null,
+      "Mailbox": "mailhog",
+      "Domain": "flywheel.local",
+      "Params": ""
+    }
+  ],
+  "Content": {
+    "Headers": {
+      "Content-Type": [
+        "text/plain; charset=UTF-8"
+      ],
+      "Date": [
+        "Fri, 8 Mar 2019 20:06:03 +0000"
+      ],
+      "From": [
+        "WordPress \u003cwordpress@portfolio-site-plugin.local\u003e"
+      ],
+      "MIME-Version": [
+        "1.0"
+      ],
+      "Message-ID": [
+        "\u003c76d650186c47836a23197b251f46d6e8@portfolio-site-plugin.local\u003e"
+      ],
+      "Received": [
+        "from localhost by mailhog.example (MailHog)\r\n          id FqVmNVCkR7yYhuEGRlYaSG5pwgLl-n2LDJmO24PAbNo=@mailhog.example; Fri, 08 Mar 2019 20:06:03 +0000"
+      ],
+      "Return-Path": [
+        "\u003cwww-data@41be40d5681c\u003e"
+      ],
+      "Subject": [
+        "Subject"
+      ],
+      "To": [
+        "jennifer.sadler@gmail.com"
+      ],
+      "X-Mailer": [
+        "PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)"
+      ],
+      "X-PHP-Originating-Script": [
+        "1000:class-phpmailer.php"
+      ]
+    },
+    "Body": "Message...\r\n",
+    "Size": 415,
+    "MIME": null
+  },
+  "Created": "2019-03-08T20:06:03.591776107Z",
+  "MIME": null,
+  "Raw": {
+    "From": "www-data@41be40d5681c",
+    "To": [
+      "mailhog@flywheel.local"
+    ],
+    "Data": "To: jennifer.sadler@gmail.com\r\nSubject: Subject\r\nX-PHP-Originating-Script: 1000:class-phpmailer.php\r\nDate: Fri, 8 Mar 2019 20:06:03 +0000\r\nFrom: WordPress \u003cwordpress@portfolio-site-plugin.local\u003e\r\nMessage-ID: \u003c76d650186c47836a23197b251f46d6e8@portfolio-site-plugin.local\u003e\r\nX-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\nMessage...\r\n",
+    "Helo": "localhost"
+  }
+}
+
+[APIv1] BROADCAST /api/v1/events
+Got message in APIv2 websocket channel
+[APIv2] BROADCAST /api/v2/websocket
+Got message in APIv1 event stream
+Sending content: {
+  "ID": "KaXxmuSTnXJ8pnQOX7PZsBpjIFTTRGDbBxVLX8ylvwQ=@mailhog.example",
+  "From": {
+    "Relays": null,
+    "Mailbox": "www-data",
+    "Domain": "41be40d5681c",
+    "Params": ""
+  },
+  "To": [
+    {
+      "Relays": null,
+      "Mailbox": "mailhog",
+      "Domain": "flywheel.local",
+      "Params": ""
+    }
+  ],
+  "Content": {
+    "Headers": {
+      "Content-Type": [
+        "text/plain; charset=UTF-8"
+      ],
+      "Date": [
+        "Fri, 8 Mar 2019 20:06:09 +0000"
+      ],
+      "From": [
+        "WordPress \u003cwordpress@portfolio-site-plugin.local\u003e"
+      ],
+      "MIME-Version": [
+        "1.0"
+      ],
+      "Message-ID": [
+        "\u003cc1832bd9bb5d333f066a06963400c0ba@portfolio-site-plugin.local\u003e"
+      ],
+      "Received": [
+        "from localhost by mailhog.example (MailHog)\r\n          id KaXxmuSTnXJ8pnQOX7PZsBpjIFTTRGDbBxVLX8ylvwQ=@mailhog.example; Fri, 08 Mar 2019 20:06:09 +0000"
+      ],
+      "Return-Path": [
+        "\u003cwww-data@41be40d5681c\u003e"
+      ],
+      "Subject": [
+        "Subject"
+      ],
+      "To": [
+        "jennifer.sadler@gmail.com"
+      ],
+      "X-Mailer": [
+        "PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)"
+      ],
+      "X-PHP-Originating-Script": [
+        "1000:class-phpmailer.php"
+      ]
+    },
+    "Body": "Message...\r\n",
+    "Size": 415,
+    "MIME": null
+  },
+  "Created": "2019-03-08T20:06:09.761167779Z",
+  "MIME": null,
+  "Raw": {
+    "From": "www-data@41be40d5681c",
+    "To": [
+      "mailhog@flywheel.local"
+    ],
+    "Data": "To: jennifer.sadler@gmail.com\r\nSubject: Subject\r\nX-PHP-Originating-Script: 1000:class-phpmailer.php\r\nDate: Fri, 8 Mar 2019 20:06:09 +0000\r\nFrom: WordPress \u003cwordpress@portfolio-site-plugin.local\u003e\r\nMessage-ID: \u003cc1832bd9bb5d333f066a06963400c0ba@portfolio-site-plugin.local\u003e\r\nX-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\nMessage...\r\n",
+    "Helo": "localhost"
+  }
+}
+
+[APIv1] BROADCAST /api/v1/events
+Got message in APIv2 websocket channel
+[APIv2] BROADCAST /api/v2/websocket
+Got message in APIv1 event stream
+Sending content: {
+  "ID": "sDmh38m2WfYrDx3o4kUp1I-pPZ7gGhOlL4g-mgH9oeE=@mailhog.example",
+  "From": {
+    "Relays": null,
+    "Mailbox": "www-data",
+    "Domain": "41be40d5681c",
+    "Params": ""
+  },
+  "To": [
+    {
+      "Relays": null,
+      "Mailbox": "mailhog",
+      "Domain": "flywheel.local",
+      "Params": ""
+    }
+  ],
+  "Content": {
+    "Headers": {
+      "Content-Type": [
+        "text/plain; charset=UTF-8"
+      ],
+      "Date": [
+        "Fri, 8 Mar 2019 20:06:09 +0000"
+      ],
+      "From": [
+        "WordPress \u003cwordpress@portfolio-site-plugin.local\u003e"
+      ],
+      "MIME-Version": [
+        "1.0"
+      ],
+      "Message-ID": [
+        "\u003cea06b876b1f5af2a06d6a29616f7f7ee@portfolio-site-plugin.local\u003e"
+      ],
+      "Received": [
+        "from localhost by mailhog.example (MailHog)\r\n          id sDmh38m2WfYrDx3o4kUp1I-pPZ7gGhOlL4g-mgH9oeE=@mailhog.example; Fri, 08 Mar 2019 20:06:09 +0000"
+      ],
+      "Return-Path": [
+        "\u003cwww-data@41be40d5681c\u003e"
+      ],
+      "Subject": [
+        "Subject"
+      ],
+      "To": [
+        "jennifer.sadler@gmail.com"
+      ],
+      "X-Mailer": [
+        "PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)"
+      ],
+      "X-PHP-Originating-Script": [
+        "1000:class-phpmailer.php"
+      ]
+    },
+    "Body": "Message...\r\n",
+    "Size": 415,
+    "MIME": null
+  },
+  "Created": "2019-03-08T20:06:09.785891899Z",
+  "MIME": null,
+  "Raw": {
+    "From": "www-data@41be40d5681c",
+    "To": [
+      "mailhog@flywheel.local"
+    ],
+    "Data": "To: jennifer.sadler@gmail.com\r\nSubject: Subject\r\nX-PHP-Originating-Script: 1000:class-phpmailer.php\r\nDate: Fri, 8 Mar 2019 20:06:09 +0000\r\nFrom: WordPress \u003cwordpress@portfolio-site-plugin.local\u003e\r\nMessage-ID: \u003cea06b876b1f5af2a06d6a29616f7f7ee@portfolio-site-plugin.local\u003e\r\nX-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\nMessage...\r\n",
+    "Helo": "localhost"
+  }
+}
+
+[APIv1] BROADCAST /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+Got message in APIv2 websocket channel
+[APIv2] BROADCAST /api/v2/websocket
+Got message in APIv1 event stream
+Sending content: {
+  "ID": "4PEkH4QCEm28jNUuEpVOA7e5sKJVfSj8CRLAJANgSKo=@mailhog.example",
+  "From": {
+    "Relays": null,
+    "Mailbox": "www-data",
+    "Domain": "41be40d5681c",
+    "Params": ""
+  },
+  "To": [
+    {
+      "Relays": null,
+      "Mailbox": "mailhog",
+      "Domain": "flywheel.local",
+      "Params": ""
+    }
+  ],
+  "Content": {
+    "Headers": {
+      "Content-Type": [
+        "text/plain; charset=UTF-8"
+      ],
+      "Date": [
+        "Fri, 8 Mar 2019 20:06:49 +0000"
+      ],
+      "From": [
+        "WordPress \u003cwordpress@portfolio-site-plugin.local\u003e"
+      ],
+      "MIME-Version": [
+        "1.0"
+      ],
+      "Message-ID": [
+        "\u003c3354692aaa584824a541c7b3ef50953c@portfolio-site-plugin.local\u003e"
+      ],
+      "Received": [
+        "from localhost by mailhog.example (MailHog)\r\n          id 4PEkH4QCEm28jNUuEpVOA7e5sKJVfSj8CRLAJANgSKo=@mailhog.example; Fri, 08 Mar 2019 20:06:49 +0000"
+      ],
+      "Return-Path": [
+        "\u003cwww-data@41be40d5681c\u003e"
+      ],
+      "Subject": [
+        "Subject"
+      ],
+      "To": [
+        "jennifer.sadler@gmail.com"
+      ],
+      "X-Mailer": [
+        "PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)"
+      ],
+      "X-PHP-Originating-Script": [
+        "1000:class-phpmailer.php"
+      ]
+    },
+    "Body": "Message...\r\n",
+    "Size": 415,
+    "MIME": null
+  },
+  "Created": "2019-03-08T20:06:49.572898455Z",
+  "MIME": null,
+  "Raw": {
+    "From": "www-data@41be40d5681c",
+    "To": [
+      "mailhog@flywheel.local"
+    ],
+    "Data": "To: jennifer.sadler@gmail.com\r\nSubject: Subject\r\nX-PHP-Originating-Script: 1000:class-phpmailer.php\r\nDate: Fri, 8 Mar 2019 20:06:49 +0000\r\nFrom: WordPress \u003cwordpress@portfolio-site-plugin.local\u003e\r\nMessage-ID: \u003c3354692aaa584824a541c7b3ef50953c@portfolio-site-plugin.local\u003e\r\nX-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\nMessage...\r\n",
+    "Helo": "localhost"
+  }
+}
+
+[APIv1] BROADCAST /api/v1/events
+Got message in APIv2 websocket channel
+[APIv2] BROADCAST /api/v2/websocket
+Got message in APIv1 event stream
+Sending content: {
+  "ID": "Mg5HxmF4Xjxf7Prield7BbuCah-uOVCJLEz0xl5rHgo=@mailhog.example",
+  "From": {
+    "Relays": null,
+    "Mailbox": "www-data",
+    "Domain": "41be40d5681c",
+    "Params": ""
+  },
+  "To": [
+    {
+      "Relays": null,
+      "Mailbox": "mailhog",
+      "Domain": "flywheel.local",
+      "Params": ""
+    }
+  ],
+  "Content": {
+    "Headers": {
+      "Content-Type": [
+        "text/plain; charset=UTF-8"
+      ],
+      "Date": [
+        "Fri, 8 Mar 2019 20:06:49 +0000"
+      ],
+      "From": [
+        "WordPress \u003cwordpress@portfolio-site-plugin.local\u003e"
+      ],
+      "MIME-Version": [
+        "1.0"
+      ],
+      "Message-ID": [
+        "\u003c5970ec483b310bc5526440245ba1126b@portfolio-site-plugin.local\u003e"
+      ],
+      "Received": [
+        "from localhost by mailhog.example (MailHog)\r\n          id Mg5HxmF4Xjxf7Prield7BbuCah-uOVCJLEz0xl5rHgo=@mailhog.example; Fri, 08 Mar 2019 20:06:49 +0000"
+      ],
+      "Return-Path": [
+        "\u003cwww-data@41be40d5681c\u003e"
+      ],
+      "Subject": [
+        "Subject"
+      ],
+      "To": [
+        "jennifer.sadler@gmail.com"
+      ],
+      "X-Mailer": [
+        "PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)"
+      ],
+      "X-PHP-Originating-Script": [
+        "1000:class-phpmailer.php"
+      ]
+    },
+    "Body": "Message...\r\n",
+    "Size": 415,
+    "MIME": null
+  },
+  "Created": "2019-03-08T20:06:49.600466653Z",
+  "MIME": null,
+  "Raw": {
+    "From": "www-data@41be40d5681c",
+    "To": [
+      "mailhog@flywheel.local"
+    ],
+    "Data": "To: jennifer.sadler@gmail.com\r\nSubject: Subject\r\nX-PHP-Originating-Script: 1000:class-phpmailer.php\r\nDate: Fri, 8 Mar 2019 20:06:49 +0000\r\nFrom: WordPress \u003cwordpress@portfolio-site-plugin.local\u003e\r\nMessage-ID: \u003c5970ec483b310bc5526440245ba1126b@portfolio-site-plugin.local\u003e\r\nX-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\nMessage...\r\n",
+    "Helo": "localhost"
+  }
+}
+
+[APIv1] BROADCAST /api/v1/events
+Got message in APIv2 websocket channel
+[APIv2] BROADCAST /api/v2/websocket
+Got message in APIv1 event stream
+Sending content: {
+  "ID": "9n1T0maCVcFjxoklYpoLjGers3TdT8-o3LyRXVSoCOA=@mailhog.example",
+  "From": {
+    "Relays": null,
+    "Mailbox": "www-data",
+    "Domain": "41be40d5681c",
+    "Params": ""
+  },
+  "To": [
+    {
+      "Relays": null,
+      "Mailbox": "mailhog",
+      "Domain": "flywheel.local",
+      "Params": ""
+    }
+  ],
+  "Content": {
+    "Headers": {
+      "Content-Type": [
+        "text/plain; charset=UTF-8"
+      ],
+      "Date": [
+        "Fri, 8 Mar 2019 20:06:56 +0000"
+      ],
+      "From": [
+        "WordPress \u003cwordpress@portfolio-site-plugin.local\u003e"
+      ],
+      "MIME-Version": [
+        "1.0"
+      ],
+      "Message-ID": [
+        "\u003c4a01fe7fdc30cf50f2849e7d75db930b@portfolio-site-plugin.local\u003e"
+      ],
+      "Received": [
+        "from localhost by mailhog.example (MailHog)\r\n          id 9n1T0maCVcFjxoklYpoLjGers3TdT8-o3LyRXVSoCOA=@mailhog.example; Fri, 08 Mar 2019 20:06:56 +0000"
+      ],
+      "Return-Path": [
+        "\u003cwww-data@41be40d5681c\u003e"
+      ],
+      "Subject": [
+        "Subject"
+      ],
+      "To": [
+        "jennifer.sadler@gmail.com"
+      ],
+      "X-Mailer": [
+        "PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)"
+      ],
+      "X-PHP-Originating-Script": [
+        "1000:class-phpmailer.php"
+      ]
+    },
+    "Body": "Message...\r\n",
+    "Size": 415,
+    "MIME": null
+  },
+  "Created": "2019-03-08T20:06:56.089667709Z",
+  "MIME": null,
+  "Raw": {
+    "From": "www-data@41be40d5681c",
+    "To": [
+      "mailhog@flywheel.local"
+    ],
+    "Data": "To: jennifer.sadler@gmail.com\r\nSubject: Subject\r\nX-PHP-Originating-Script: 1000:class-phpmailer.php\r\nDate: Fri, 8 Mar 2019 20:06:56 +0000\r\nFrom: WordPress \u003cwordpress@portfolio-site-plugin.local\u003e\r\nMessage-ID: \u003c4a01fe7fdc30cf50f2849e7d75db930b@portfolio-site-plugin.local\u003e\r\nX-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\nMessage...\r\n",
+    "Helo": "localhost"
+  }
+}
+
+[APIv1] BROADCAST /api/v1/events
+Got message in APIv2 websocket channel
+[APIv2] BROADCAST /api/v2/websocket
+Got message in APIv1 event stream
+Sending content: {
+  "ID": "XQWzaZeSs_coUg8-OkNy_h3jgJjw30ioO90-QmvK-iw=@mailhog.example",
+  "From": {
+    "Relays": null,
+    "Mailbox": "www-data",
+    "Domain": "41be40d5681c",
+    "Params": ""
+  },
+  "To": [
+    {
+      "Relays": null,
+      "Mailbox": "mailhog",
+      "Domain": "flywheel.local",
+      "Params": ""
+    }
+  ],
+  "Content": {
+    "Headers": {
+      "Content-Type": [
+        "text/plain; charset=UTF-8"
+      ],
+      "Date": [
+        "Fri, 8 Mar 2019 20:06:56 +0000"
+      ],
+      "From": [
+        "WordPress \u003cwordpress@portfolio-site-plugin.local\u003e"
+      ],
+      "MIME-Version": [
+        "1.0"
+      ],
+      "Message-ID": [
+        "\u003c42db5e6d38925c2d422e33a26b8da68f@portfolio-site-plugin.local\u003e"
+      ],
+      "Received": [
+        "from localhost by mailhog.example (MailHog)\r\n          id XQWzaZeSs_coUg8-OkNy_h3jgJjw30ioO90-QmvK-iw=@mailhog.example; Fri, 08 Mar 2019 20:06:56 +0000"
+      ],
+      "Return-Path": [
+        "\u003cwww-data@41be40d5681c\u003e"
+      ],
+      "Subject": [
+        "Subject"
+      ],
+      "To": [
+        "jennifer.sadler@gmail.com"
+      ],
+      "X-Mailer": [
+        "PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)"
+      ],
+      "X-PHP-Originating-Script": [
+        "1000:class-phpmailer.php"
+      ]
+    },
+    "Body": "Message...\r\n",
+    "Size": 415,
+    "MIME": null
+  },
+  "Created": "2019-03-08T20:06:56.116216592Z",
+  "MIME": null,
+  "Raw": {
+    "From": "www-data@41be40d5681c",
+    "To": [
+      "mailhog@flywheel.local"
+    ],
+    "Data": "To: jennifer.sadler@gmail.com\r\nSubject: Subject\r\nX-PHP-Originating-Script: 1000:class-phpmailer.php\r\nDate: Fri, 8 Mar 2019 20:06:56 +0000\r\nFrom: WordPress \u003cwordpress@portfolio-site-plugin.local\u003e\r\nMessage-ID: \u003c42db5e6d38925c2d422e33a26b8da68f@portfolio-site-plugin.local\u003e\r\nX-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\nMessage...\r\n",
+    "Helo": "localhost"
+  }
+}
+
+[APIv1] BROADCAST /api/v1/events
+Got message in APIv2 websocket channel
+[APIv2] BROADCAST /api/v2/websocket
+Got message in APIv1 event stream
+Sending content: {
+  "ID": "2HtWGVkRpPvQIk9gaIERVSn9IAR0esQD6sd_TCXquqY=@mailhog.example",
+  "From": {
+    "Relays": null,
+    "Mailbox": "www-data",
+    "Domain": "41be40d5681c",
+    "Params": ""
+  },
+  "To": [
+    {
+      "Relays": null,
+      "Mailbox": "mailhog",
+      "Domain": "flywheel.local",
+      "Params": ""
+    }
+  ],
+  "Content": {
+    "Headers": {
+      "Content-Type": [
+        "text/plain; charset=UTF-8"
+      ],
+      "Date": [
+        "Fri, 8 Mar 2019 20:07:00 +0000"
+      ],
+      "From": [
+        "WordPress \u003cwordpress@portfolio-site-plugin.local\u003e"
+      ],
+      "MIME-Version": [
+        "1.0"
+      ],
+      "Message-ID": [
+        "\u003c00bc625004f50392cc3ef441b292edbc@portfolio-site-plugin.local\u003e"
+      ],
+      "Received": [
+        "from localhost by mailhog.example (MailHog)\r\n          id 2HtWGVkRpPvQIk9gaIERVSn9IAR0esQD6sd_TCXquqY=@mailhog.example; Fri, 08 Mar 2019 20:07:00 +0000"
+      ],
+      "Return-Path": [
+        "\u003cwww-data@41be40d5681c\u003e"
+      ],
+      "Subject": [
+        "Subject"
+      ],
+      "To": [
+        "jennifer.sadler@gmail.com"
+      ],
+      "X-Mailer": [
+        "PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)"
+      ],
+      "X-PHP-Originating-Script": [
+        "1000:class-phpmailer.php"
+      ]
+    },
+    "Body": "Message...\r\n",
+    "Size": 415,
+    "MIME": null
+  },
+  "Created": "2019-03-08T20:07:00.428121501Z",
+  "MIME": null,
+  "Raw": {
+    "From": "www-data@41be40d5681c",
+    "To": [
+      "mailhog@flywheel.local"
+    ],
+    "Data": "To: jennifer.sadler@gmail.com\r\nSubject: Subject\r\nX-PHP-Originating-Script: 1000:class-phpmailer.php\r\nDate: Fri, 8 Mar 2019 20:07:00 +0000\r\nFrom: WordPress \u003cwordpress@portfolio-site-plugin.local\u003e\r\nMessage-ID: \u003c00bc625004f50392cc3ef441b292edbc@portfolio-site-plugin.local\u003e\r\nX-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\nMessage...\r\n",
+    "Helo": "localhost"
+  }
+}
+
+[APIv1] BROADCAST /api/v1/events
+Got message in APIv2 websocket channel
+[APIv2] BROADCAST /api/v2/websocket
+Got message in APIv1 event stream
+Sending content: {
+  "ID": "fpYDHTiAglsiLKrf165q8TlHhkp-yooHEIHGQKwiunE=@mailhog.example",
+  "From": {
+    "Relays": null,
+    "Mailbox": "www-data",
+    "Domain": "41be40d5681c",
+    "Params": ""
+  },
+  "To": [
+    {
+      "Relays": null,
+      "Mailbox": "mailhog",
+      "Domain": "flywheel.local",
+      "Params": ""
+    }
+  ],
+  "Content": {
+    "Headers": {
+      "Content-Type": [
+        "text/plain; charset=UTF-8"
+      ],
+      "Date": [
+        "Fri, 8 Mar 2019 20:07:02 +0000"
+      ],
+      "From": [
+        "WordPress \u003cwordpress@portfolio-site-plugin.local\u003e"
+      ],
+      "MIME-Version": [
+        "1.0"
+      ],
+      "Message-ID": [
+        "\u003c7856ceead9c42558d1df8b8e57e30a0d@portfolio-site-plugin.local\u003e"
+      ],
+      "Received": [
+        "from localhost by mailhog.example (MailHog)\r\n          id fpYDHTiAglsiLKrf165q8TlHhkp-yooHEIHGQKwiunE=@mailhog.example; Fri, 08 Mar 2019 20:07:02 +0000"
+      ],
+      "Return-Path": [
+        "\u003cwww-data@41be40d5681c\u003e"
+      ],
+      "Subject": [
+        "Subject"
+      ],
+      "To": [
+        "jennifer.sadler@gmail.com"
+      ],
+      "X-Mailer": [
+        "PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)"
+      ],
+      "X-PHP-Originating-Script": [
+        "1000:class-phpmailer.php"
+      ]
+    },
+    "Body": "Message...\r\n",
+    "Size": 415,
+    "MIME": null
+  },
+  "Created": "2019-03-08T20:07:02.793521391Z",
+  "MIME": null,
+  "Raw": {
+    "From": "www-data@41be40d5681c",
+    "To": [
+      "mailhog@flywheel.local"
+    ],
+    "Data": "To: jennifer.sadler@gmail.com\r\nSubject: Subject\r\nX-PHP-Originating-Script: 1000:class-phpmailer.php\r\nDate: Fri, 8 Mar 2019 20:07:02 +0000\r\nFrom: WordPress \u003cwordpress@portfolio-site-plugin.local\u003e\r\nMessage-ID: \u003c7856ceead9c42558d1df8b8e57e30a0d@portfolio-site-plugin.local\u003e\r\nX-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\nMessage...\r\n",
+    "Helo": "localhost"
+  }
+}
+
+[APIv1] BROADCAST /api/v1/events

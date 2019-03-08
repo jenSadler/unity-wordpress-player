@@ -43,6 +43,30 @@ function myplugin_on_uninstall(){
   delete_option('myplugin_show_welcome_page',true);
 }
 
+function myplugin_custom_logout(){
+  wp_die('Bye Bye Baby!');
+}
+
+if ( ! function_exists( 'wp_logout' ) ) :
+	/**
+	 * Log the current user out.
+	 *
+	 * @since 2.5.0
+	 */
+	function wp_logout() {
+		wp_destroy_current_session();
+		wp_clear_auth_cookie();
+    myplugin_custom_logout();
+
+		/**
+		 * Fires after a user is logged-out.
+		 *
+		 * @since 1.5.0
+		 */
+		do_action( 'wp_logout' );
+	}
+endif;
+
 add_action('init', 'myplugin_action_hook_example');
 add_filter('the_content','myplugin_filter_hook_example');
 register_activation_hook(__FILE__,'myplugin_on_activation');
