@@ -18,7 +18,7 @@ function myplugin_action_hook_example(){
 }
 
 function myplugin_filter_hook_example($content){
-  $content = $content . '<p>CUSTOM BABY!</p>';
+  $content = $content . '<p>CUSTOM CONTENT BABY!</p>';
   return $content;
 }
 
