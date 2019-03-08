@@ -1,0 +1,54 @@
+2019/03/08 19:33:59 Using in-memory storage
+2019/03/08 19:33:59 [SMTP] Binding to address: 0.0.0.0:1025
+2019/03/08 19:33:59 Serving under http://:1080/
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] Starting session
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] [PROTO: INVALID] Started session, switching to ESTABLISH state
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] Sent 35 bytes: '220 mailhog.example ESMTP MailHog\r\n'
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] Received 16 bytes: 'EHLO localhost\r\n'
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] [PROTO: ESTABLISH] Processing line: EHLO localhost
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] [PROTO: ESTABLISH] In state 1, got command 'EHLO', args 'localhost'
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] [PROTO: ESTABLISH] In ESTABLISH state
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] [PROTO: ESTABLISH] Got EHLO command, switching to MAIL state
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] Sent 21 bytes: '250-Hello localhost\r\n'
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] Sent 16 bytes: '250-PIPELINING\r\n'
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] Sent 16 bytes: '250 AUTH PLAIN\r\n'
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] Received 35 bytes: 'MAIL FROM:<www-data@41be40d5681c>\r\n'
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] [PROTO: MAIL] Processing line: MAIL FROM:<www-data@41be40d5681c>
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] [PROTO: MAIL] In state 6, got command 'MAIL', args 'FROM:<www-data@41be40d5681c>'
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] [PROTO: MAIL] In MAIL state
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] [PROTO: MAIL] Got MAIL command, switching to RCPT state
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] Sent 37 bytes: '250 Sender www-data@41be40d5681c ok\r\n'
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] Received 34 bytes: 'RCPT TO:<mailhog@flywheel.local>\r\n'
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] [PROTO: RCPT] Processing line: RCPT TO:<mailhog@flywheel.local>
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] [PROTO: RCPT] In state 7, got command 'RCPT', args 'TO:<mailhog@flywheel.local>'
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] [PROTO: RCPT] In RCPT state
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] [PROTO: RCPT] Got RCPT command
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] Sent 41 bytes: '250 Recipient mailhog@flywheel.local ok\r\n'
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] Received 6 bytes: 'DATA\r\n'
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] [PROTO: RCPT] Processing line: DATA
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] [PROTO: RCPT] In state 7, got command 'DATA', args ''
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] [PROTO: RCPT] In RCPT state
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] [PROTO: RCPT] Got DATA command, switching to DATA state
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] Sent 37 bytes: '354 End data with <CR><LF>.<CR><LF>\r\n'
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] Received 420 bytes: 'To: jennifer.sadler@gmail.com\r\nSubject: Subject\r\nX-PHP-Originating-Script: 1000:class-phpmailer.php\r\nDate: Fri, 8 Mar 2019 19:34:13 +0000\r\nFrom: WordPress <wordpress@portfolio-site-plugin.local>\r\nMessage-ID: <a6ffffa7d24afd51df1b2f462eb51ef5@portfolio-site-plugin.local>\r\nX-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\nMessage...\r\n\r\n.\r\n'
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] [PROTO: DATA] Got EOF, storing message and switching to MAIL state
+2019/03/08 19:34:13 Parsing Content from string: 'To: jennifer.sadler@gmail.com
+Subject: Subject
+X-PHP-Originating-Script: 1000:class-phpmailer.php
+Date: Fri, 8 Mar 2019 19:34:13 +0000
+From: WordPress <wordpress@portfolio-site-plugin.local>
+Message-ID: <a6ffffa7d24afd51df1b2f462eb51ef5@portfolio-site-plugin.local>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+Message...
+'
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] Storing message JkLI_KCXPprhn1Nw8cUE_IuH47HeAR45o-PqgIv15TY=@mailhog.example
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] Sent 80 bytes: '250 Ok: queued as JkLI_KCXPprhn1Nw8cUE_IuH47HeAR45o-PqgIv15TY=@mailhog.example\r\n'
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] Received 6 bytes: 'QUIT\r\n'
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] [PROTO: MAIL] Processing line: QUIT
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] [PROTO: MAIL] In state 6, got command 'QUIT', args ''
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] [PROTO: MAIL] Got QUIT verb, staying in MAIL state
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] Sent 9 bytes: '221 Bye\r\n'
+2019/03/08 19:34:13 [SMTP 127.0.0.1:35214] Session ended

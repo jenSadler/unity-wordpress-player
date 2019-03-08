@@ -4,3 +4,27 @@
 [08-Mar-2019 16:34:02] NOTICE: exiting, bye-bye!
 [08-Mar-2019 16:35:09] NOTICE: fpm is running, pid 53
 [08-Mar-2019 16:35:09] NOTICE: ready to handle connections
+[08-Mar-2019 19:04:27] NOTICE: fpm is running, pid 54
+[08-Mar-2019 19:04:27] NOTICE: ready to handle connections
+[08-Mar-2019 19:05:36] WARNING: [pool www] child 72 exited on signal 15 (SIGTERM) after 68.815824 seconds from start
+[08-Mar-2019 19:05:36] NOTICE: [pool www] child 1119 started
+[08-Mar-2019 19:05:36] NOTICE: Terminating ...
+[08-Mar-2019 19:05:36] NOTICE: exiting, bye-bye!
+[08-Mar-2019 19:05:50] NOTICE: fpm is running, pid 52
+[08-Mar-2019 19:05:50] NOTICE: ready to handle connections
+[08-Mar-2019 19:12:57] NOTICE: Terminating ...
+[08-Mar-2019 19:12:57] NOTICE: exiting, bye-bye!
+[08-Mar-2019 19:23:40] NOTICE: fpm is running, pid 54
+[08-Mar-2019 19:23:40] NOTICE: ready to handle connections
+[08-Mar-2019 19:28:57] NOTICE: Terminating ...
+[08-Mar-2019 19:28:57] NOTICE: exiting, bye-bye!
+[08-Mar-2019 19:29:02] NOTICE: fpm is running, pid 51
+[08-Mar-2019 19:29:02] NOTICE: ready to handle connections
+[08-Mar-2019 19:31:10] NOTICE: Terminating ...
+[08-Mar-2019 19:31:10] NOTICE: exiting, bye-bye!
+[08-Mar-2019 19:31:17] NOTICE: fpm is running, pid 52
+[08-Mar-2019 19:31:17] NOTICE: ready to handle connections
+[08-Mar-2019 19:33:42] NOTICE: Terminating ...
+[08-Mar-2019 19:33:42] NOTICE: exiting, bye-bye!
+[08-Mar-2019 19:33:59] NOTICE: fpm is running, pid 52
+[08-Mar-2019 19:33:59] NOTICE: ready to handle connections

@@ -1,0 +1,7 @@
+[08-Mar-2019 19:04:26 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /app/public/wp-includes/wp-db.php on line 1612
+[08-Mar-2019 19:04:34 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /app/public/wp-includes/wp-db.php on line 1612
+[08-Mar-2019 19:05:49 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /app/public/wp-includes/wp-db.php on line 1612
+[08-Mar-2019 19:23:39 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /app/public/wp-includes/wp-db.php on line 1612
+[08-Mar-2019 19:29:01 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /app/public/wp-includes/wp-db.php on line 1612
+[08-Mar-2019 19:31:16 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /app/public/wp-includes/wp-db.php on line 1612
+[08-Mar-2019 19:33:58 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /app/public/wp-includes/wp-db.php on line 1612

@@ -54,7 +54,9 @@ define('AUTH_SALT',        'EgN+eWoPW9EKpCc8FImACwmIh8dabyc1D710RJBQX343fQl4CqCi
 define('SECURE_AUTH_SALT', 'dIjTtn6UMTd0JoZ0JZZMG90rlm/0b75wIN2vrEsVqeEmjr4pW5DWRRnhDy3hbdesBa+1Fudl4kUJUsGdCBebgg==');
 define('LOGGED_IN_SALT',   'viRs/L2WlNTAQyncZFlqI7JTRZzguJk603xAO+IiAWeF4eRCGxR9+imSQiL3DbFgT0qiOVzIJFxG4PThNtspMQ==');
 define('NONCE_SALT',       '90Y/v4plc5xFjRb7rSsmQ/cnlWvXvEWKP8ptW9S6Czba4et2t9+dW13qXy6VWTnoZZdKFsFPo3qLUuImFGvyyg==');
-
+define('WP_DEBUG',true);
+define('WP_DEBUG_LOG',true);
+define('WP_DEBUG_DISPLAY',true);
 /**
  * WordPress Database Table prefix.
  *
