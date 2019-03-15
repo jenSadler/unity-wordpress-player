@@ -17,4 +17,64 @@
    exit;
  }
 
+function myplugin_display_settings_page(){
+  if(!current_user_can("manage_options")) return;
+
+  ?>
+  <div class="wrap">
+    <h1><?php echo esc_html(get_admin_page_title());?></h1>
+    <form action = "options.php" method="post">
+      <?php
+        //output security fields
+        settings_fields("myplugin_options");
+
+        //output settings sesctions
+        do_settings_sections("myplugin");
+
+        //submit button
+        submit_button();
+       ?>
+     </form>
+   </div>
+  <?php
+}
+  /*function myplugin_add_toplevel_menu(){
+    /* parameters
+      page Title
+      menu Title
+      capability
+      menu slug
+      callable function
+      icon url
+      position
+
+    **
+    add_menu_page(
+        "MyPlugin Settings",
+        "myPlugin",
+        "manage_options",
+        "myplugin",
+        "myplugin_display_settings_page",
+        "dashicons-admin-generic",
+        null
+      );
+  }*/
+
+  function myplugin_add_sublevel_menu(){
+    add_submenu_page(
+        "options-general.php",
+        "MyPlugin Settings",
+        "myPlugin",
+        "manage_options",
+        "myplugin",
+        "myplugin_display_settings_page",
+        "dashicons-admin-generic",
+        null
+      );
+  }
+
+  //add_action('admin_menu', 'myplugin_add_toplevel_menu');
+
+  add_action('admin_menu', 'myplugin_add_sublevel_menu');
+
  ?>
