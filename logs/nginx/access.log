@@ -426,3 +426,4 @@
 127.0.0.1 - - [15/Mar/2019:18:34:10 +0000] "GET /favicon.ico HTTP/1.0" 200 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:65.0) Gecko/20100101 Firefox/65.0"
 127.0.0.1 - - [15/Mar/2019:18:34:35 +0000] "GET /wp-admin/options-general.php?page=myplugin HTTP/1.0" 200 23131 "http://portfolio-site-plugin.local/wp-admin/plugins.php" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:65.0) Gecko/20100101 Firefox/65.0"
 127.0.0.1 - - [15/Mar/2019:18:34:49 +0000] "GET /wp-admin/options-media.php HTTP/1.0" 200 26249 "http://portfolio-site-plugin.local/wp-admin/options-general.php?page=myplugin" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:65.0) Gecko/20100101 Firefox/65.0"
+127.0.0.1 - - [15/Mar/2019:18:35:25 +0000] "GET /wp-admin/options-general.php?page=myplugin HTTP/1.0" 200 23131 "http://portfolio-site-plugin.local/wp-admin/options-media.php" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:65.0) Gecko/20100101 Firefox/65.0"
