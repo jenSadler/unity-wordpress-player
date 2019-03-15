@@ -144,4 +144,5 @@ INSERT INTO `wp_options` VALUES
 (144,"_transient_plugin_slugs","a:2:{i:0;s:47:\"simple-example-plugin/simple-example-plugin.php\";i:1;s:21:\"unitydog/unitydog.php\";}","no"),
 (145,"recently_activated","a:1:{s:47:\"simple-example-plugin/simple-example-plugin.php\";i:1552077357;}","yes"),
 (146,"myplugin_posts_per_page","10","yes"),
-(147,"myplugin_show_welcome_page","1","yes");
+(147,"myplugin_show_welcome_page","1","yes"),
+(148,"_transient_doing_cron","1552665884.5893321037292480468750","yes");
