@@ -72,3 +72,18 @@ Stack trace:
 [15-Mar-2019 18:50:04 UTC] PHP Parse error:  syntax error, unexpected 'add_action' (T_STRING) in /app/public/wp-content/plugins/myplugin/myplugin.php on line 31
 [15-Mar-2019 18:52:04 UTC] PHP Parse error:  syntax error, unexpected 'add_action' (T_STRING) in /app/public/wp-content/plugins/myplugin/myplugin.php on line 31
 [15-Mar-2019 18:54:04 UTC] PHP Parse error:  syntax error, unexpected ''myplugin_options'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) in /app/public/wp-content/plugins/myplugin/myplugin.php on line 25
+[15-Mar-2019 18:58:13 UTC] PHP Parse error:  syntax error, unexpected ''myplugin_options'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) in /app/public/wp-content/plugins/myplugin/myplugin.php on line 25
+[15-Mar-2019 18:58:50 UTC] PHP Parse error:  syntax error, unexpected ''myplugin_options'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) in /app/public/wp-content/plugins/myplugin/myplugin.php on line 25
+[15-Mar-2019 19:00:59 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/plugins/myplugin/myplugin.php on line 33
+[15-Mar-2019 19:18:38 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /app/public/wp-content/plugins/myplugin/myplugin.php on line 29
+[15-Mar-2019 19:20:38 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /app/public/wp-content/plugins/myplugin/myplugin.php on line 29
+[15-Mar-2019 19:22:38 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /app/public/wp-content/plugins/myplugin/myplugin.php on line 29
+[15-Mar-2019 19:24:38 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /app/public/wp-content/plugins/myplugin/myplugin.php on line 29
+[15-Mar-2019 19:25:31 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /app/public/wp-content/plugins/myplugin/myplugin.php on line 29
+[15-Mar-2019 19:26:24 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ';' in /app/public/wp-content/plugins/myplugin/myplugin.php on line 45
+[15-Mar-2019 19:27:10 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ';' in /app/public/wp-content/plugins/myplugin/myplugin.php on line 45
+[15-Mar-2019 19:27:46 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ';' in /app/public/wp-content/plugins/myplugin/myplugin.php on line 45
+[15-Mar-2019 19:28:40 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, function 'myplugin_callback_field_radio' not found or invalid function name in /app/public/wp-admin/includes/template.php on line 1653
+[15-Mar-2019 19:31:49 UTC] PHP Parse error:  syntax error, unexpected '>' in /app/public/wp-content/plugins/myplugin/myplugin.php on line 64
+[15-Mar-2019 19:32:07 UTC] PHP Parse error:  syntax error, unexpected '";' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /app/public/wp-content/plugins/myplugin/myplugin.php on line 71
+[15-Mar-2019 19:32:26 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/plugins/myplugin/myplugin.php on line 75
