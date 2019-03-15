@@ -24,3 +24,4 @@
 [08-Mar-2019 20:01:26 UTC] PHP Fatal error:  Cannot redeclare wp_logout() (previously declared in /app/public/wp-includes/pluggable.php:572) in /app/public/wp-content/plugins/simple-example-plugin/simple-example-plugin.php on line 51
 [08-Mar-2019 20:01:26 UTC] PHP Fatal error:  Cannot redeclare wp_logout() (previously declared in /app/public/wp-includes/pluggable.php:572) in /app/public/wp-content/plugins/simple-example-plugin/simple-example-plugin.php on line 51
 [08-Mar-2019 20:01:26 UTC] PHP Fatal error:  Cannot redeclare wp_logout() (previously declared in /app/public/wp-includes/pluggable.php:572) in /app/public/wp-content/plugins/simple-example-plugin/simple-example-plugin.php on line 51
+[15-Mar-2019 16:04:41 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /app/public/wp-includes/wp-db.php on line 1612
