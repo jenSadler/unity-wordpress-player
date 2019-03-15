@@ -68,3 +68,7 @@ Stack trace:
 [15-Mar-2019 18:30:02 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/plugins/myplugin/myplugin.php on line 24
 [15-Mar-2019 18:30:02 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/plugins/myplugin/myplugin.php on line 24
 [15-Mar-2019 18:31:42 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /app/public/wp-content/plugins/myplugin/myplugin.php on line 61
+[15-Mar-2019 18:42:04 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'myplugin_add_sublevel_menu' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[15-Mar-2019 18:50:04 UTC] PHP Parse error:  syntax error, unexpected 'add_action' (T_STRING) in /app/public/wp-content/plugins/myplugin/myplugin.php on line 31
+[15-Mar-2019 18:52:04 UTC] PHP Parse error:  syntax error, unexpected 'add_action' (T_STRING) in /app/public/wp-content/plugins/myplugin/myplugin.php on line 31
+[15-Mar-2019 18:54:04 UTC] PHP Parse error:  syntax error, unexpected ''myplugin_options'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) in /app/public/wp-content/plugins/myplugin/myplugin.php on line 25

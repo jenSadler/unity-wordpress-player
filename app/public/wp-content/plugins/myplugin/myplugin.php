@@ -13,68 +13,32 @@
  You should have received a copy of the GNU General Public License along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
- if(!defined('ABSPATH')){
-   exit;
- }
-
-function myplugin_display_settings_page(){
-  if(!current_user_can("manage_options")) return;
-
-  ?>
-  <div class="wrap">
-    <h1><?php echo esc_html(get_admin_page_title());?></h1>
-    <form action = "options.php" method="post">
-      <?php
-        //output security fields
-        settings_fields("myplugin_options");
-
-        //output settings sesctions
-        do_settings_sections("myplugin");
-
-        //submit button
-        submit_button();
-       ?>
-     </form>
-   </div>
-  <?php
+if(!defined('ABSPATH')){
+ exit;
 }
-  /*function myplugin_add_toplevel_menu(){
-    /* parameters
-      page Title
-      menu Title
-      capability
-      menu slug
-      callable function
-      icon url
-      position
 
-    **
-    add_menu_page(
-        "MyPlugin Settings",
-        "myPlugin",
-        "manage_options",
-        "myplugin",
-        "myplugin_display_settings_page",
-        "dashicons-admin-generic",
-        null
-      );
-  }*/
+if (is_admin()){
+  require_once plugin_dir_path(__FILE__) . 'admin/admin-menu.php';
+  require_once plugin_dir_path(__FILE__) . 'admin/settings-page.php';
+}
 
-  function myplugin_add_sublevel_menu(){
-    add_submenu_page(
-        "options-general.php",
-        "MyPlugin Settings",
-        "myPlugin",
-        "manage_options",
-        "myplugin",
-        "myplugin_display_settings_page",
-        "dashicons-admin-generic",
-        null
-      );
-  }
+function myplugin_register_setting('myplugin_options', 'myplugin_options', 'myplugin_callback_validate_options'){
+  add_settings_section('myplugin_section_login','Customize Login Page','myplugin_callback_section_login','myplugin');
+  add_settings_section('myplugin_section_admin','Customize Admin Area','myplugin_callback_section_admin','myplugin');
+}
+function myplugin_callback_section_login(){
+  "Log In Section. Edit this all now here plz."
+}
 
-  //add_action('admin_menu', 'myplugin_add_toplevel_menu');
+function myplugin_callback_section_admin(){
+  "Admin Section. Edit me here"
+}
 
-  add_action('admin_menu', 'myplugin_add_sublevel_menu');
+function myplugin_callback_validate_options(){
+
+}
+
+add_action('admin_init', "myplugin_register_setting");
+add_action('admin_menu', 'myplugin_add_sublevel_menu');
 
  ?>
