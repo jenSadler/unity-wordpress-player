@@ -87,3 +87,5 @@ Stack trace:
 [15-Mar-2019 19:31:49 UTC] PHP Parse error:  syntax error, unexpected '>' in /app/public/wp-content/plugins/myplugin/myplugin.php on line 64
 [15-Mar-2019 19:32:07 UTC] PHP Parse error:  syntax error, unexpected '";' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /app/public/wp-content/plugins/myplugin/myplugin.php on line 71
 [15-Mar-2019 19:32:26 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/plugins/myplugin/myplugin.php on line 75
+[22-Mar-2019 15:06:31 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /app/public/wp-includes/wp-db.php on line 1612
+[22-Mar-2019 19:56:05 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /app/public/wp-includes/wp-db.php on line 1612
