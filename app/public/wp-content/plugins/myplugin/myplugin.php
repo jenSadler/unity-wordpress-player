@@ -24,6 +24,19 @@ if (is_admin()){
   require_once plugin_dir_path(__FILE__) . 'admin/settings-callbacks.php';
 }
 
+function myplugin_options_default(){
+  return array(
+    'custom_url'    => 'https://wordpress.org/',
+    'custom_title' => 'Powered by JenPress',
+    'custom_style' => 'disable',
+    'custom_message' => '<p class="custom-message">Don\'t buy things you don\'t need!</p>',
+    'custom_footer' => 'Refuse it, reuse it, repair it',
+    'custom_toolbar' => 'false',
+    'custom_scheme' => 'default'
+  );
+}
+
+
 add_action('admin_init', "myplugin_register_setting");
 add_action('admin_menu', 'myplugin_add_sublevel_menu');
 
