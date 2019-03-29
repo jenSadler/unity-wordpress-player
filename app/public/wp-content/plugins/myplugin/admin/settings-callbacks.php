@@ -10,11 +10,13 @@ function myplugin_callback_section_login(){
 }
 
 function myplugin_callback_section_admin(){
-  echo "Admin Section. Edit me here. <ul style='list-style-type: square;margin-left:50px'><li>hi!</li><li>hows it going?!</li><li>what up?</li></ul>";
+  echo "Admin Section. ";
 }
 
 function myplugin_callback_validate_options($input){
-  return $input;
+  if(isset($input['custom_rul'])){
+    $input['custom_url']=sec_url($input['custom_url']);
+  }
 }
 
 function myplugin_callback_field_text($args){
@@ -26,7 +28,7 @@ function myplugin_callback_field_text($args){
   $value = isset($options[$id]) ? sanitize_text_field($options[$id]) : '';
 
   echo '<input id="myplugin_options_'.$id.'" name = "myplugin_options['.$id.']" type="text" size = "40" value="'.$value.'"><br/>';
-  echo '<label for= myplugin_options_'.$id.'">'.$label. '</label>';
+  echo '<label for= "myplugin_options_'.$id.'">'.$label. '</label>';
 }
 
 function myplugin_callback_field_textarea($args){
@@ -39,8 +41,8 @@ function myplugin_callback_field_textarea($args){
 
   $value = isset($options[$id])? wp_kses(stripslashes_deep($options[$id]),$allowed_tags):'';
 
-  echo '<textarea id="myplugin_options_'.$id.'" name = "myplugin_options['.$id.']" rows="5" cols="50">'.$value.'"</textarea><br/>';
-  echo '<label for= myplugin_options_'.$id.'">'.$label. '</label>';
+  echo '<textarea id="myplugin_options_'.$id.'" name = "myplugin_options['.$id.']" rows="5" cols="50">'.$value.'</textarea><br/>';
+  echo '<label for= "myplugin_options_'.$id.'">'.$label. '</label>';
 }
 
 function myplugin_callback_field_radio($args){
@@ -73,12 +75,32 @@ function myplugin_callback_field_checkbox($args){
 
   $checked = isset($options[$id]) ? checked($options[$id],1,false) : '';
   echo '<input id="myplugin_options_'.$id.'" name = "myplugin_options['.$id.']" type="checkbox" value="1"'.$checked.'>';
-  echo '<label for= myplugin_options_'.$id.'">'.$label. '</label>';
+  echo '<label for= "myplugin_options_'.$id.'">'.$label. '</label>';
 
 }
 
 function myplugin_callback_field_select($args){
-  echo "<p>".$args['label']  ."[selection field]</p>";
+  $id = isset($args["id"]) ? $args["id"] : '';
+  $label = isset($args["label"]) ? $args["label"] : '';
+
+  $selected_option = isset($options[$id]) ? sanitize_text_field($options[$id]) : '';
+
+  $select_options = array(
+    'default' => 'Default',
+    'light' =>'Light',
+    'blue' =>'Blue',
+    'coffee' =>'Coffee',
+    'ectoplasm'=>'Ectoplasm',
+    'midnight'=>'Midnight',
+    'ocean'=>'Ocean',
+    'sunrise'=>'Sunrise'
+  );
+  echo '<select id="myplugin_options_'.$id.'" name = "myplugin_options['.$id.']">';
+  foreach($select_options as $value=>$option){
+    $selected = selected($selected_option===$value, true, false);
+    echo '<option value="'.$value.'"'.$selected.'>'.$option. '</option>';
+  }
+  echo '</select><label for="myplugin_options_'.$id.'">'.$label.'</label>';
 }
 
 
